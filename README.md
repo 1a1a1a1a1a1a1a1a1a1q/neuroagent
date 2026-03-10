@@ -15,7 +15,7 @@ Analysiert das Drosophila (Fruchtfliege) Connectome, extrahiert biologische Prin
 
 ```bash
 # Repo klonen
-git clone https://github.com/DEIN-USER/neuroagent.git
+git clone https://github.com/1a1a1a1a1a1a1a1a1a1q/neuroagent.git
 cd neuroagent
 
 # Dependencies
@@ -25,14 +25,14 @@ pip install -r requirements.txt
 jupyter notebook neuroagent.ipynb
 ```
 
-Die erste Zelle im Notebook installiert Ollama und lädt das LLM automatisch.
+Die erste Code-Zelle im Notebook installiert Ollama und lädt Dolphin (uncensored) automatisch.
 
 ## GPU-Bedarf
 
 | Modell | VRAM | GPUs (A100 80GB) |
 |--------|------|-------------------|
-| Llama 3.1 405B | ~400GB | 8x A100 |
-| Llama 3.1 70B | ~140GB | 2x A100 |
+| Dolphin Llama 3.1 405B (uncensored) | ~400GB | 8x A100 |
+| Dolphin Llama 3.1 70B (uncensored) | ~140GB | 2x A100 |
 
 ## Analyse-Tools
 
