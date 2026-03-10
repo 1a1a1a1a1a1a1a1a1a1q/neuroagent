@@ -1,0 +1,14 @@
+numpy
+scipy
+networkx
+matplotlib
+pandas
+requests
+tqdm
+h5py
+scikit-learn
+python-louvain
+openai
+pyarrow
+torch
+jupyter
